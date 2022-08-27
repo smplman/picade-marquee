@@ -1,0 +1,1 @@
+cmd_Release/rpi_ws281x.node := ln -f "Release/obj.target/rpi_ws281x.node" "Release/rpi_ws281x.node" 2>/dev/null || (rm -rf "Release/rpi_ws281x.node" && cp -af "Release/obj.target/rpi_ws281x.node" "Release/rpi_ws281x.node")
